@@ -302,7 +302,7 @@ right: 1.4rem;
     height: auto;
 }
  /* trending */
-
+ 
 .trending {
 background-color: var(--colo-dark-1);
 padding: 8rem 4rem;
@@ -313,7 +313,8 @@ grid-gap: 2rem;
 align-items: center;
 }
 .trendig_img {
-    width: 80%;
+    width: 100%;
+   
 }
 .trending_p {
     color: var(--color-green);
