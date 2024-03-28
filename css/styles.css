@@ -299,11 +299,29 @@ right: 1.4rem;
 
 .trending {
 background-color: var(--colo-dark-1);
-padding: 6rem 3rem;
+padding: 8rem 4rem;
 width: 100%;
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
 grid-gap: 2rem;
+align-items: center;
+}
+.trendig_img {
+    width: 80%;
+}
+.trending_p {
+    color: var(--color-green);
+}
+.trending_title {
+    color: var(--colo-white-1);
+    font-size: 4rem;
+    margin-top: 1re;
+    margin-bottom: 3rem;
+}
+.trending_btn {
+    background-color: var(--color-green);
+    padding: 1rem 2rem;
+    color: var(--colo-white-1);
 }
 
 
