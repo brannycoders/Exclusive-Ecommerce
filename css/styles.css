@@ -411,8 +411,10 @@ align-items: center;
 .services_container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(22rem 1fr));
+    grid-template-columns: repeat(auto-fit, mimmax(22rem, 1fr));
     grid-gap: 3rem;
+    display: flex;
+    margin-top: 20rem;
 }
 .service {
     text-align: center;
@@ -420,6 +422,42 @@ align-items: center;
 .service_title {
     margin: 1.5rem 0rem;
 }
+/* footer */
 
-
-
+.footer {
+    margin-top: 10rem;
+    background-color: var(--colo-dark-1);
+}
+.footer_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimmax(20rem, 1fr));
+    grid-gap: 3rem;
+    display: flex;
+    margin-top: 20rem;
+    text-align: center; 
+    padding: 5rem 0rem;
+    color: var(--colo-white-1);
+}
+.footer_logo {
+    font-size: 3rem;
+    color: var(--colo-white-1);
+    font-weight: 700;
+   
+}
+.footer_p {
+    margin-top: 1.2rem;
+}
+.footer_item_title {
+    margin-top: 1.2rem;
+}
+.footer_list_item {
+margin: 5rem 0rem;
+}
+.footer_bottom_container {
+    width: 100%;
+    text-align: center;
+}.footer_copy {
+    color: var(--colo-dark-2);
+    padding: 1.5rem 0rem;
+}

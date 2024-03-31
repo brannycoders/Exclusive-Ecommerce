@@ -35,6 +35,32 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
 });
+// Animations
+ScrollReveal().reveal(".top_nav", {
+origin: (bottom),
+distance: "20px",
+Opacity: 0,
+});
+
+ScrollReveal().reveal(".nav", {
+  origin: (bottom),
+  distance: "20px",
+  Opacity: 0,
+  Delay:  100,
+});
+ScrollReveal().reveal(".header", {
+  origin: (bottom),
+  distance: "20px",
+  Opacity: 0,
+  Delay:  200,
+});
+ScrollReveal().reveal(".section", {
+  origin: (bottom),
+  distance: "20px",
+  Opacity: 0,
+  duraion: 300,
+  Delay:  100,
+});
 
 
 
