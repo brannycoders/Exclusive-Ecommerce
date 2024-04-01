@@ -472,6 +472,12 @@ margin: 5rem 0rem;
 }
 .hamburger {
     display: none;
+    cursor: pointer;
+}
+.hamburger > svg {
+width: 4.5rem;
+height: 4.5rem;
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -488,3 +494,28 @@ margin: 5rem 0rem;
         display: block;
     }
 }
+/* mobile nav */
+.mobile_nav {
+    background-color: var(--colo-white-1);
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    border-right: 1px solid var(--colo-dark-2);
+    
+}
+.mobile_nav_link {
+    padding: 2rem 10rem 2rem 5rem;
+    border-bottom: 1px solid var(--colo-white-2);
+}
+.mobile_nav_link {
+    padding: 1.2rem 5rem 1.2rem 0rem;
+}
+.mobile_nav_hide {
+    display: none;
+}
+
+
+
+
+
+
