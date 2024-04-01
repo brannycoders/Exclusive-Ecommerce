@@ -411,8 +411,10 @@ align-items: center;
 .services_container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(22rem 1fr));
+    grid-template-columns: repeat(auto-fit, mimmax(22rem, 1fr));
     grid-gap: 3rem;
+    display: flex;
+    margin-top: 20rem;
 }
 .service {
     text-align: center;
@@ -420,6 +422,100 @@ align-items: center;
 .service_title {
     margin: 1.5rem 0rem;
 }
+/* footer */
+
+.footer {
+    margin-top: 10rem;
+    background-color: var(--colo-dark-1);
+}
+.footer_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimmax(20rem, 1fr));
+    grid-gap: 3rem;
+    display: flex;
+    margin-top: 20rem;
+    text-align: center; 
+    padding: 5rem 0rem;
+    color: var(--colo-white-1);
+}
+.footer_logo {
+    font-size: 3rem;
+    color: var(--colo-white-1);
+    font-weight: 700;
+   
+}
+.footer_p {
+    margin-top: 1.2rem;
+}
+.footer_item_title {
+    margin-top: 1.2rem;
+}
+.footer_list_item {
+margin: 5rem 0rem;
+}
+.footer_bottom_container {
+    width: 100%;
+    text-align: center;
+}.footer_copy {
+    color: var(--colo-dark-2);
+    padding: 1.5rem 0rem;
+}
+
+@media only screen and (max-width: 1070px) {
+    .header_container {
+        flex-direction: column;
+    }
+    .header_filter {
+        display: none;
+    }
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.hamburger > svg {
+width: 4.5rem;
+height: 4.5rem;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .top_nav {
+        display: none;
+    }
+    .nav_list {
+        display: none;
+    }
+    .nav_items {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+}
+/* mobile nav */
+.mobile_nav {
+    background-color: var(--colo-white-1);
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    border-right: 1px solid var(--colo-dark-2);
+    
+}
+.mobile_nav_link {
+    padding: 2rem 10rem 2rem 5rem;
+    border-bottom: 1px solid var(--colo-white-2);
+}
+.mobile_nav_link {
+    padding: 1.2rem 5rem 1.2rem 0rem;
+}
+.mobile_nav_hide {
+    display: none;
+}
+
+
+
 
 
 
