@@ -70,6 +70,13 @@ ScrollReveal().reveal(".footer", {
 });
 
 
+// mobile_nav
+const hamburger = document.querySelector(".hamburger");
+const Nav = document.querySelector(".hamburger");
+
+hamburger.addEventListener("click", () => {
+  Nav.classList.toggle("mobile_nav_hide");
+})
 
 
 
