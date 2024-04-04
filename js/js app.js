@@ -49,8 +49,7 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
-  },
-});
+
 // Animations
 ScrollReveal().reveal(".top_nav", {
 origin: (bottom),

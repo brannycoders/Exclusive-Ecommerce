@@ -523,6 +523,7 @@ color: var(--colo-dark-1);
 }
 .mobile_nav_hide {
     display: none;
+    transition: all 0.5s ease;
 }
 
 
