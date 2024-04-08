@@ -557,6 +557,10 @@ color: var(--colo-dark-1);
 .cart_img {
     width: 7%;
 }
+.cart_total {
+    margin-top: 2rem;
+    text-align: right;
+}
 
 
 
